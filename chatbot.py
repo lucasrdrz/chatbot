@@ -7,7 +7,7 @@ from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 
 
-DOCS_PATH = "./manual-de-instalación-y-configuración-dn100-svb-v1.pdf"
+#DOCS_PATH = "./manual-de-instalación-y-configuración-dn100-svb-v1.pdf"
 
 
 
@@ -54,5 +54,6 @@ if pregunta:
     })
 
     st.write(respuesta)
+
 
 
