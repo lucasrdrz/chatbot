@@ -4,7 +4,7 @@ from langchain_community.vectorstores import Chroma
 from langchain_community.embeddings import OllamaEmbeddings
 import os
 
-DOCS_PATH = "E:/chatbot/"
+DOCS_PATH = "./manual-de-instalación-y-configuración-dn100-svb-v1.pdf"
 #funcion para leer los archivos
 def load_docs():
     docs = []
@@ -85,3 +85,4 @@ if pregunta:
     })
 
     st.write(respuesta)
+
