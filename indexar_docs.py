@@ -6,7 +6,7 @@ from langchain_community.vectorstores import Chroma
 from langchain_community.embeddings import OllamaEmbeddings
 
 # Carpeta donde vas a poner los PDFs, Word, txt de la empresa
-DOCS_PATH = "documentos_empresa"
+DOCS_PATH = "./manual-de-instalación-y-configuración-dn100-svb-v1.pdf"
 
 def load_docs():
     docs = []
