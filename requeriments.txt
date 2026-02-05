@@ -1,7 +1,8 @@
-langchain==0.2.16
-langchain-community==0.2.16
-chromadb==0.5.5
+streamlit
+langchain
+langchain-community
+langchain-core
+langchain-text-splitters
+chromadb
 pypdf
 python-docx
-streamlit
-ollama
